@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>Hey, maybe a title should go here</title>
+	<script type="text/javascript" src="javascript/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="javascript/show.js"></script>
+</head>
+
+<body>
+	<a href="/map.html">show the map</a>
+	<div><h2>API reference:</h2>
+	<ul>
+	<li> /oauth/signup will start the oauth authentication process for a signed-in foursquare user</li>
+	<li> / shows this page</li>
+	<li> /all_checkins returns JSON with all authenticated users most recent checkins. it takes a 'before' and/or 'after' parameter to limit what entries are returned. 'before' and 'after' are in unix epochs<br/>
+	example: /all_checkins?after=1280722062&amp;before=1286929463
+	</li>
+	</ul>
+	</div>
+	<a href="/oauth/signup"> sign up here!</a><br/>
+	<h2>Signed up Users:</h2>
+</body>
+
+</html>
